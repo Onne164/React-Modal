@@ -1,0 +1,80 @@
+.modal {
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    background-color: #fff;
+    background: url('https://plus.unsplash.com/premium_photo-1673784273086-fadda3069ba6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80') rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    opacity: 0.5;
+    transform: translateY(-100vh);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.showModal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.closeBtn span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.closeBtn span:hover {
+    transform: scale(1.2);
+}
+
+/* Modal Header */
+.modalHeader {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Body */
+.modalBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalBody h1 {
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.modalBody button {
+    margin-top: 4rem;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.modalBody button:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}

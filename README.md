@@ -5,9 +5,9 @@ This project is a demonstration of an animated modal created in React from scrat
 
 ## Technologies Used
 
-React
-Vite
-CSS Modules
+- React
+- Vite
+- CSS Modules
 
 ## Installation
 - Clone the repository to your local machine:

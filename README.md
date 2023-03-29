@@ -12,7 +12,8 @@ This project is a demonstration of an animated modal created in React from scrat
 ## Installation
 - Clone the repository to your local machine:
 git clone https://github.com/Onne164/React-Modal.git
-cd React-Modal
+
+- cd React-Modal
 
 - Install dependencies:
 npm install
